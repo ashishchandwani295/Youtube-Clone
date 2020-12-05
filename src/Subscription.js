@@ -2,6 +2,8 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import { Subscriptions } from '@material-ui/icons'
 import React from 'react';
 import './Subscriptions.css';
+import { authenticate, loadClient, execute } from './OAuth';
+
 function Subscription() {
     return (
         <div className="subscriptions">
@@ -11,9 +13,10 @@ function Subscription() {
                 <h4>Sign in to see updates from your favorite YouTube channels</h4>
                 <div className="subsriptions__button">
                     <AccountCircleIcon src= "" alt="" />
-                    <button>
+                    <button onclick={authenticate().then(loadClient)}>
                         SIGN IN
                     </button>
+                    <button onclick={execute()}></button>
                 </div>
             </div>
         </div>
