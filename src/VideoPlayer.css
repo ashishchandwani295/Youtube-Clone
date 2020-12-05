@@ -1,0 +1,17 @@
+.videoplayer {
+    display: flex;
+    flex: 0.85;
+    background-color: #f9f9f9;
+    height: 95vh;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.videoplayer__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.videoplayer > h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
