@@ -42,3 +42,18 @@ export const getChannelLogo = (channelId) => {
 
     return channelLogo
 }
+
+
+export const getSubscribers = (accessToken) => {
+    return fetch(`https://youtube.googleapis.com/youtube/v3/subscriptions?part=snippet&mine=true&key=${youtube_API_Key}`, {
+        method: "GET",
+        headers: {
+            Accept: "application/json",
+            Authorization: `Bearer ${accessToken}`,
+        }
+    }
+    )
+    .then(response => console.log(response))
+    .catch(err => console.log(err))
+
+}
