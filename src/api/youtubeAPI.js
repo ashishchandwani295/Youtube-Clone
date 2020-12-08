@@ -2,7 +2,7 @@ const youtube_API_Key = "AIzaSyAu6KcQ4lwLobUNuFVSkktCk_i2Chjda3I";
 const youtubeSearchEndPoint = "https://www.googleapis.com/youtube/v3/search";
 const youtubeHomeEndPoint = "https://www.googleapis.com/youtube/v3/videos";
 const youtubeChannelsEndPoint = 'https://www.googleapis.com/youtube/v3/channels';
-var maxResults = 3;
+var maxResults = 20;
  
 // search item to come directly from the search bar and handled in q
 

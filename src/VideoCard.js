@@ -31,7 +31,7 @@ function VideoCard( {thumbnail, title, channel, views, days } ) {
                     <img src={thumbnail} alt="" width="270px" height="140px" />
                 </div>
                 <div className="videocard__info">
-                    <Avatar src="" alt="" className="videocard__avatar"/> 
+                    {/* <Avatar src="" alt="" className="videocard__avatar"/>  */}
                     <div className="videocard__details">
                         <div className="videocard__title">
                             <h2>{title}</h2>

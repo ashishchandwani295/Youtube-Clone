@@ -7,4 +7,9 @@
     height: 95vh;
     padding-bottom: 0;
     object-fit: contain;
+    overflow-y: scroll;
+}
+
+.trendingvideos::-webkit-scrollbar {
+    display: none;
 }

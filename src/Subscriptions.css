@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-.subsriptions__button > button {
+.subsriptions__GoogleLogin {
     border: none;
     background: none;
     color: rgb(6 95 212);

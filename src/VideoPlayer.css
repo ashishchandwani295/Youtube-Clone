@@ -5,6 +5,11 @@
     height: 95vh;
     padding: 40px 20px;
     padding-bottom: 0;
+    overflow-y: scroll;
+}
+
+.videoplayer::-webkit-scrollbar {
+    display: none;
 }
 
 .videoplayer__container{
